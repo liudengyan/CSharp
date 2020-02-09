@@ -99,7 +99,11 @@ namespace 测试用例空间
     {
         static void Main(string[] args)
         {
-            var input = SequenceFormConsole();
+            //any方法
+            Console.WriteLine(SequenceFormConsole().Any());
+
+            return;
+            var input = SequenceFormConsole().Select(x => int.Parse(x));
             foreach (var item in input)
             {
                 Console.WriteLine($"\t{item}");
@@ -146,7 +150,7 @@ namespace 测试用例空间
 
         public static IEnumerable<string> SequenceFormConsole()
         {
-            string text = default(string);
+            string text = Console.ReadLine();
             while (text != "done")
             {
                 yield return text;
