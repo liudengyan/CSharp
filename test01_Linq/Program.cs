@@ -35,7 +35,7 @@ namespace test01_Linq
     {
         static void Main(string[] args)
         {
-            //初始化武林高手。
+            //初始化武林高手
             var master = new List<MartialArtsMaster>()
             {
                 new MartialArtsMaster(){Id = 1,Name = "黄蓉",Age = 8,Menpai = "丐帮",Kongfu = "打狗棒法",Level = 9 },
