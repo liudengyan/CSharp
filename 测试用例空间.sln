@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "测试用例空间", "测�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test01_Linq", "test01_Linq\test01_Linq.csproj", "{6EE0F370-7506-4F0B-8650-4B1F641C4263}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test02_ADO", "test02_ADO\test02_ADO.csproj", "{34950C0E-9D47-45A6-A9A4-2A8D324BB74A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6EE0F370-7506-4F0B-8650-4B1F641C4263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EE0F370-7506-4F0B-8650-4B1F641C4263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EE0F370-7506-4F0B-8650-4B1F641C4263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34950C0E-9D47-45A6-A9A4-2A8D324BB74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34950C0E-9D47-45A6-A9A4-2A8D324BB74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34950C0E-9D47-45A6-A9A4-2A8D324BB74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34950C0E-9D47-45A6-A9A4-2A8D324BB74A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

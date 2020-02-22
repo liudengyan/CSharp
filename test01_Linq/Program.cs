@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,6 +36,10 @@ namespace test01_Linq
     {
         static void Main(string[] args)
         {
+
+            SqlConnection sqlConnection = new SqlConnection();
+            sqlConnection.ConnectionString = "";
+
             //初始化武林高手。
             var master = new List<MartialArtsMaster>()
             {
@@ -152,7 +157,7 @@ namespace test01_Linq
             {
                 Console.WriteLine(item);
             }
-            return;
+            
             string[] languane = { "java", "C#", "C++", "python", "golang" };
             var query = from a in languane
                         group a by a.Length into g
